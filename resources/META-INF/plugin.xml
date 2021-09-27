@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>GCPulgin</name>
+  <version>1.0</version>
+  <vendor email="894545891@qq.com" url="">NX</vendor>
+
+  <description><![CDATA[
+      111111111111111111111111111111111111111111111
+    ]]></description>
+
+  <change-notes><![CDATA[
+      111111111111111111111111111111111111111111111
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="GCPlugin" class="com.wj.plugins.action.GCAction" text="测试模版代码生成" description="接口测试模版代码生成">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
